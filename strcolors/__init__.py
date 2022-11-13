@@ -37,7 +37,8 @@ from strcolors.core import Term, Tm
 __version__ = '0.8.0'
 __author__ = 'Havocesp'
 __url__ = 'https://github.com/havocesp/strcolors'
-__license__ = 'UNICENSE'
+__license__ = 'UNLICENSE'
+__email__ = '10012416+havocesp@users.noreply.github.com'
 
 __all__ = [
     'BG_BLACK',
@@ -67,7 +68,7 @@ __all__ = [
     'YELLOW',
     '__author__',
     '__license__',
-    '__package__',
+    '__email__',
     '__url__',
     '__version__'
 ]

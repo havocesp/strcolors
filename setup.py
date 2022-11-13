@@ -1,18 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ Setup script for the package. """
-from setuptools import setup
+from setuptools import find_packages, setup
 
-from strcolors import __author__, __license__, __package__, __version__
+from strcolors import __author__, __email__, __license__, __package__, __version__
 
 setup(
-    name=__name__,
+    name=__package__,
     version=__version__,
     description='Python module to handle terminal capabilities.',
     author=__author__,
     url=f'https://github.com/{__author__}/{__package__}',
-    py_modules=[__package__],
+    packages=find_packages(),
     license=__license__,
+    author_email=__email__,
     include_package_data=True,
     data_files=[('', ['LICENSE', 'README.md'])],
     classifiers=[
