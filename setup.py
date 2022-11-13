@@ -7,7 +7,7 @@ from strcolors import __author__, __license__, __package__, __version__
 
 setup(
     name=__name__,
-    version=__version__,
+    version='v0.8.0',
     description='Python module to handle terminal capabilities.',
     author=__author__,
     url=f'https://github.com/{__author__}/{__package__}',
