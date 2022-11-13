@@ -34,7 +34,7 @@ from strcolors.constants import (
 )
 from strcolors.core import Term, Tm
 
-__version__ = 'v0.1.0'
+__version__ = 'v0.8.0'
 __author__ = 'Havocesp'
 __url__ = 'https://github.com/havocesp/strcolors'
 __license__ = 'UNICENSE'
